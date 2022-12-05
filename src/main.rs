@@ -1,6 +1,7 @@
 mod day1;
 mod day2;
 mod day3;
+mod day4;
 
 use std::env;
 use std::fs;
@@ -21,6 +22,8 @@ fn main() {
     } else if day == "3" {
         day3::day3(&info);
         day3::day3_part2(&info);
+    } else if day == "4" {
+        day4::day4(&info);
     }
 }
 
