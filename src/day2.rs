@@ -1,3 +1,4 @@
+#[allow(non_snake_case)]
 pub fn day2(encrypted_message: String) {
     let mut score = 0;
     let mut real_score = 0;
@@ -29,6 +30,7 @@ fn convert(letter: &str) -> i32 {
     }
 }
 
+#[allow(non_snake_case)]
 fn RPS_value(plays: &Vec<i32>) -> i32 {
     const ROCK: i32 = 1;
     const PAPER: i32 = 2;
@@ -58,6 +60,7 @@ fn RPS_value(plays: &Vec<i32>) -> i32 {
     return score;
 }
 
+#[allow(non_snake_case)]
 fn real_RPS_value(plays: &Vec<i32>) -> i32 {
     const ROCK: i32 = 1;
     const PAPER: i32 = 2;
